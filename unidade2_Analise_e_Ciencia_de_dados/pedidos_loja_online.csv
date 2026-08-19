@@ -1,0 +1,21 @@
+id_pedido,data_pedido,regiao,categoria,pagamento,status,prazo_entrega_dias,avaliacao
+PD001,2026-08-01,Asa Norte,Periférico,Pix,Entregue,1,5
+PD002,2026-08-01,Taguatinga,Notebook,Cartão,Entregue,3,4
+PD003,2026-08-02,Ceilândia,Celular,Boleto,Entregue,7,2
+PD004,2026-08-03,Águas Claras,Acessório,Pix,Entregue,2,5
+PD005,2026-08-04,Asa Sul,Monitor,Cartão,Entregue,2,4
+PD006,2026-08-05,Ceilândia,Periférico,Pix,Entregue,5,3
+PD007,2026-08-06,Asa Norte,Notebook,Boleto,Cancelado,,
+PD008,2026-08-07,Taguatinga,Acessório,Pix,Entregue,2,5
+PD009,2026-08-08,Asa Sul,Celular,Cartão,Entregue,1,5
+PD010,2026-08-09,Ceilândia,Monitor,Boleto,Entregue,15,1
+PD011,2026-08-10,Águas Claras,Notebook,Cartão,Entregue,3,4
+PD012,2026-08-11,Asa Norte,Acessório,Pix,Entregue,1,4
+PD013,2026-08-12,Taguatinga,Periférico,Boleto,Entregue,6,3
+PD014,2026-08-14,Ceilândia,Acessório,Cartão,Entregue,6,2
+PD015,2026-08-16,Asa Sul,Notebook,Pix,Entregue,2,5
+PD016,2026-08-18,Águas Claras,Celular,Boleto,Cancelado,,
+PD017,2026-08-20,Taguatinga,Monitor,Cartão,Entregue,4,4
+PD018,2026-08-22,Asa Norte,Periférico,Cartão,Entregue,2,5
+PD019,2026-08-27,Ceilândia,Celular,Pix,Em transporte,,
+PD020,2026-08-29,Asa Sul,Acessório,Boleto,Em transporte,,
