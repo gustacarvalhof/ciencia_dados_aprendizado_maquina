@@ -2,9 +2,9 @@
 
 ## Ciência de Dados e Aprendizagem de Máquina — Aula 01
 
-**Tema:** Introdução à Ciência de Dados e Big Data
-**Metodologia:** Trabalho em equipe
-**Tempo:** 20 minutos
+**Tema:** Introdução à Ciência de Dados e Big Data  
+**Metodologia:** Trabalho em equipe  
+**Tempo:** 20 minutos  
 **Entregável:** Mapa do Problema de Ciência de Dados
 
 ---
@@ -13,10 +13,10 @@
 
 | Campo             | Resposta |
 | ----------------- | -------- |
-| **Turma:**        | Sistemas de Informação         |
-| **Data:**         |  19/08        |
+| **Turma:**        | Sistemas de Informação |
+| **Data:**         | 19/08 |
 | **Equipe:**       |          |
-| **Integrante 1:** |          |
+| **Integrante 1:** | Gustavo Carvalho de Oliveira |
 | **Integrante 2:** |          |
 | **Integrante 3:** |          |
 | **Integrante 4:** |          |
@@ -44,7 +44,7 @@ Escolha uma área para investigar:
 * [ ] Banco
 * [ ] Saúde
 * [ ] Transporte
-* [ ] Educação
+* [x] Educação
 * [ ] Entretenimento
 * [ ] Indústria
 * [ ] Meio ambiente
@@ -55,13 +55,9 @@ Escolha uma área para investigar:
 
 **Descreva, em poucas linhas, o problema que sua equipe pretende analisar.**
 
-> Escreva aqui:
+> Analisar o baixo desempenho e a evasão de alunos em uma instituição de ensino, identificando os principais fatores que influenciam as notas, faltas e abandono dos estudos.
 >
-> ---
->
-> ---
->
-> ---
+> O objetivo é utilizar dados acadêmicos para identificar alunos que precisam de apoio e melhorar o desempenho escolar.
 
 ---
 
@@ -71,15 +67,11 @@ Identifique a organização, grupo ou público afetado pelo problema.
 
 **Quem possui ou enfrenta esse problema?**
 
-> ---
->
-> ---
+> Instituições de ensino, professores, coordenadores e alunos enfrentam esse problema.
 
 ### Quem é afetado pelo problema?
 
-> ---
->
-> ---
+> Principalmente os alunos, mas também professores, familiares e a própria instituição.
 
 ---
 
@@ -89,11 +81,11 @@ Explique por que vale a pena investigar esse problema utilizando dados.
 
 **Qual é o impacto do problema?**
 
-> ---
+> O baixo desempenho pode levar à reprovação e à desistência dos alunos.
 >
-> ---
+> Identificar os fatores relacionados ao problema permite que a instituição tome medidas preventivas.
 >
-> ---
+> Com isso, os alunos podem receber apoio antes que a situação se agrave.
 
 ---
 
@@ -103,11 +95,9 @@ Imagine que sua equipe foi contratada para ajudar uma organização.
 
 **Qual decisão a organização precisa tomar?**
 
-> ---
+> A instituição precisa decidir quais alunos necessitam de acompanhamento e quais ações podem ser realizadas para melhorar seu desempenho.
 >
-> ---
->
-> ---
+> Também pode decidir onde concentrar recursos, como monitorias, reforço e acompanhamento pedagógico.
 
 ---
 
@@ -121,11 +111,11 @@ Liste pelo menos **5 dados**.
 
 | Nº | Dado necessário | Por que esse dado é importante? |
 | -: | --------------- | ------------------------------- |
-|  1 |                 |                                 |
-|  2 |                 |                                 |
-|  3 |                 |                                 |
-|  4 |                 |                                 |
-|  5 |                 |                                 |
+| 1 | Notas dos alunos | Permitem identificar baixo desempenho. |
+| 2 | Frequência e número de faltas | Podem indicar relação entre faltas e desempenho. |
+| 3 | Histórico de reprovações | Ajuda a identificar alunos com dificuldades recorrentes. |
+| 4 | Participação nas atividades | Permite verificar o envolvimento dos alunos. |
+| 5 | Curso e período do aluno | Permite comparar o desempenho entre diferentes grupos. |
 
 ### Exemplos
 
@@ -155,19 +145,19 @@ Os dados, quando analisados, podem gerar informações úteis.
 
 ### Pergunta 1
 
-> ---
+> Existe relação entre o número de faltas e as notas dos alunos?
 
 ### Pergunta 2
 
-> ---
+> Quais períodos ou disciplinas apresentam maior índice de reprovação?
 
 ### Pergunta 3
 
-> ---
+> Quais características aparecem com maior frequência entre os alunos que abandonam o curso?
 
 ### Pergunta 4
 
-> ---
+> Quais alunos apresentam sinais de dificuldade e poderiam receber acompanhamento?
 
 ---
 
@@ -177,22 +167,20 @@ Pense como um cientista de dados.
 
 Sua equipe poderia procurar:
 
-* [ ] Tendências
-* [ ] Comparações
-* [ ] Grupos semelhantes
-* [ ] Comportamentos recorrentes
-* [ ] Valores fora do padrão
-* [ ] Relações entre variáveis
-* [ ] Mudanças ao longo do tempo
+* [x] Tendências
+* [x] Comparações
+* [x] Grupos semelhantes
+* [x] Comportamentos recorrentes
+* [x] Valores fora do padrão
+* [x] Relações entre variáveis
+* [x] Mudanças ao longo do tempo
 * [ ] Outros: __________________________
 
 ### Explique um padrão que vocês gostariam de encontrar
 
-> ---
+> Gostaríamos de identificar se alunos com maior quantidade de faltas apresentam, em média, notas menores.
 >
-> ---
->
-> ---
+> Também seria interessante identificar períodos em que o desempenho dos alunos diminui e possíveis grupos com maior risco de reprovação ou evasão.
 
 ---
 
@@ -202,21 +190,21 @@ Como os dados poderiam ser analisados?
 
 Marque uma ou mais possibilidades:
 
-* [ ] Análise descritiva
-* [ ] Comparação entre grupos
-* [ ] Análise temporal
-* [ ] Visualização por gráficos
-* [ ] Identificação de padrões
+* [x] Análise descritiva
+* [x] Comparação entre grupos
+* [x] Análise temporal
+* [x] Visualização por gráficos
+* [x] Identificação de padrões
 * [ ] Classificação
-* [ ] Previsão
-* [ ] Agrupamento
+* [x] Previsão
+* [x] Agrupamento
 * [ ] Outra: __________________________
 
 ### Explique
 
-> ---
+> Os dados poderiam ser organizados e apresentados em gráficos e tabelas para comparar notas, faltas e reprovações.
 >
-> ---
+> Também poderiam ser analisados ao longo dos semestres para identificar tendências e utilizar modelos de previsão para identificar alunos com maior risco de baixo desempenho.
 
 ---
 
@@ -226,11 +214,9 @@ Depois de analisar os dados, imagine que sua equipe encontrou informações impo
 
 **Que decisão poderia ser tomada com base nos resultados?**
 
-> ---
+> A instituição poderia criar um programa de acompanhamento para alunos com baixo desempenho ou alta frequência de faltas.
 >
-> ---
->
-> ---
+> Também poderia oferecer monitorias, reforço acadêmico e acompanhamento individualizado para os grupos identificados.
 
 ---
 
@@ -238,11 +224,9 @@ Depois de analisar os dados, imagine que sua equipe encontrou informações impo
 
 Qual seria o possível benefício da decisão para a organização ou para as pessoas envolvidas?
 
-> ---
+> O principal benefício seria melhorar o desempenho dos alunos e reduzir os índices de reprovação e evasão.
 >
-> ---
->
-> ---
+> A instituição também poderia utilizar seus recursos de maneira mais eficiente, oferecendo apoio para quem realmente precisa.
 
 ---
 
@@ -252,21 +236,21 @@ Analise o problema escolhido pela equipe.
 
 | V              | Pergunta                                                   | Resposta da equipe |
 | -------------- | ---------------------------------------------------------- | ------------------ |
-| **Volume**     | Existe uma grande quantidade de dados?                     |                    |
-| **Velocidade** | Os dados são gerados ou processados rapidamente?           |                    |
-| **Variedade**  | Existem diferentes tipos ou formatos de dados?             |                    |
-| **Veracidade** | Os dados podem apresentar erros ou problemas de qualidade? |                    |
-| **Valor**      | Os dados podem gerar algum benefício ou apoiar decisões?   |                    |
+| **Volume**     | Existe uma grande quantidade de dados?                     | Sim. Uma instituição pode possuir dados de muitos alunos, disciplinas e semestres. |
+| **Velocidade** | Os dados são gerados ou processados rapidamente?           | Sim. Notas, faltas e atividades podem ser registradas diariamente. |
+| **Variedade**  | Existem diferentes tipos ou formatos de dados?             | Sim. Podem existir notas, textos, registros de presença, avaliações e dados cadastrais. |
+| **Veracidade** | Os dados podem apresentar erros ou problemas de qualidade? | Sim. Podem existir registros incompletos, erros de lançamento ou informações desatualizadas. |
+| **Valor**      | Os dados podem gerar algum benefício ou apoiar decisões?   | Sim. Podem ajudar a identificar dificuldades e melhorar as ações de acompanhamento. |
 
 ### Qual dos 5 Vs é mais relevante para o problema?
 
-> ---
+> **Valor.**
 
 ### Justifique
 
-> ---
+> O principal objetivo é transformar os dados acadêmicos em informações úteis para melhorar o desempenho dos alunos e apoiar decisões da instituição.
 >
-> ---
+> Dessa forma, os dados podem gerar benefícios tanto para os estudantes quanto para a instituição.
 
 ---
 
@@ -277,162 +261,38 @@ Complete o fluxo abaixo:
 ```text
 ┌─────────────────────┐
 │       PROBLEMA      │
-│                     │
-│                     │
+│ Baixo desempenho e  │
+│ evasão de alunos    │
 └──────────┬──────────┘
            ↓
 ┌─────────────────────┐
 │        DADOS        │
-│                     │
-│                     │
+│ Notas, faltas,      │
+│ reprovações e       │
+│ participação        │
 └──────────┬──────────┘
            ↓
 ┌─────────────────────┐
 │     INFORMAÇÕES     │
-│                     │
-│                     │
+│ Fatores relacionados│
+│ ao baixo desempenho │
 └──────────┬──────────┘
            ↓
 ┌─────────────────────┐
 │       ANÁLISE       │
-│                     │
-│                     │
+│ Gráficos,           │
+│ comparações e       │
+│ previsões           │
 └──────────┬──────────┘
            ↓
 ┌─────────────────────┐
 │       DECISÃO       │
-│                     │
-│                     │
+│ Criar ações de      │
+│ acompanhamento      │
 └──────────┬──────────┘
            ↓
 ┌─────────────────────┐
 │      BENEFÍCIO      │
-│                     │
-│                     │
+│ Melhor desempenho   │
+│ e menor evasão      │
 └─────────────────────┘
-```
-
-### Resuma cada etapa
-
-**Problema:**
-
->
-
-**Dados:**
-
->
-
-**Informação:**
-
->
-
-**Análise:**
-
->
-
-**Decisão:**
-
->
-
-**Benefício:**
-
->
-
----
-
-# 15. Preparação para apresentação
-
-A equipe terá **2 minutos** para apresentar sua proposta.
-
-Organizem a apresentação seguindo esta estrutura:
-
-### 1. Nosso problema
-
-> ---
-
-### 2. Precisamos destes dados
-
-> ---
-
-### 3. Queremos descobrir
-
-> ---
-
-### 4. Pretendemos analisar
-
-> ---
-
-### 5. A decisão poderia ser
-
-> ---
-
-### 6. O benefício esperado é
-
-> ---
-
----
-
-# 16. Checklist da equipe
-
-Antes de entregar, confira:
-
-* [ ] Definimos um problema real.
-* [ ] Identificamos quem é afetado pelo problema.
-* [ ] Explicamos por que o problema é importante.
-* [ ] Identificamos pelo menos 5 dados necessários.
-* [ ] Definimos perguntas que queremos responder.
-* [ ] Identificamos possíveis padrões.
-* [ ] Indicamos como os dados poderiam ser analisados.
-* [ ] Definimos uma possível decisão.
-* [ ] Identificamos o benefício esperado.
-* [ ] Analisamos os 5 Vs do Big Data.
-* [ ] Preenchemos o Mapa do Problema.
-* [ ] Estamos preparados para apresentar em 2 minutos.
-
----
-
-# 17. Reflexão final
-
-Responda individualmente ou em equipe:
-
-> **Ter muitos dados significa necessariamente tomar boas decisões? Por quê?**
-
-**Resposta:**
-
-> ---
->
-> ---
->
-> ---
->
-> ---
-
----
-
-## Entrega
-
-### Produto final
-
-A equipe deverá entregar:
-
-**Mapa do Problema de Ciência de Dados**
-
-contendo:
-
-```text
-Problema
-   ↓
-Dados necessários
-   ↓
-Informações desejadas
-   ↓
-Análise
-   ↓
-Decisão
-   ↓
-Benefício esperado
-```
-
-**Formato sugerido:** Markdown, PDF ou documento disponibilizado pelo professor.
-
-**Apresentação:** 2 minutos por equipe.
