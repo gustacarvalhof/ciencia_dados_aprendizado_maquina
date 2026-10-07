@@ -1,0 +1,5 @@
+{
+  "modelo": "Regressão logística C=1",
+  "acc_teste": 0.8421052631578947,
+  "f1_macro_teste": 0.8442907189346308
+}
