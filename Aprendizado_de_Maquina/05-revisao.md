@@ -7,10 +7,10 @@ Ciência de Dados e Aprendizado de Máquina · Sistemas de Informação · 2026.
 
 ## Identificação
 
-- Estudante ou equipe: **Gustavo Carvalho de Oliveira (atividade individual)**
-- Instituição e turma: **UDF – Centro Universitário · Sistemas de Informação · Turma: PREENCHER**
+- Estudante ou equipe: **Gustavo Carvalho de Oliveira**
+- Instituição e turma: **UDF – Centro Universitário · Sistemas de Informação · Turma: Sistemas de Informação**
 - Data de realização: **16/10/2026**
-- Integrantes e contribuições (se em equipe): **Não se aplica — atividade realizada individualmente; todas as etapas são de Gustavo Carvalho de Oliveira.**
+- Integrantes e contribuições (se em equipe): **Gustavo Carvalho de Oliveira.**
 
 Responda com suas palavras e apresente os cálculos quando solicitados. Os números dos exercícios manuais não são os resultados do laboratório.
 
