@@ -1,0 +1,35 @@
+idProduto,idCategoria,produto,precoLista
+1,1,"Notebook i5 15""",3499.9
+2,1,"Notebook i7 14""",5299.0
+3,1,Notebook Ryzen 5,3899.0
+4,1,"Chromebook 11""",1599.0
+5,1,Notebook gamer RTX,7499.0
+6,2,Smartphone 128 GB,1899.0
+7,2,Smartphone 256 GB,2999.0
+8,2,Smartphone básico,899.0
+9,2,Smartphone premium,5999.0
+10,3,Mouse sem fio,79.9
+11,3,Teclado mecânico,289.0
+12,3,Headset USB,199.0
+13,3,Webcam Full HD,249.0
+14,3,Mouse gamer,179.0
+15,4,"Monitor 24"" Full HD",899.0
+16,4,"Monitor 27"" QHD",1699.0
+17,4,"Monitor 34"" ultrawide",2899.0
+18,5,SSD 1 TB,429.9
+19,5,SSD 500 GB,259.9
+20,5,HD externo 2 TB,449.0
+21,5,Pen drive 64 GB,39.9
+22,5,Cartão microSD 128 GB,69.9
+23,6,Cabo USB-C,29.9
+24,6,Carregador 65 W,159.0
+25,6,Capa para notebook,89.9
+26,6,Suporte para monitor,149.0
+27,6,Hub USB,119.0
+28,7,Console de videogame,3999.0
+29,7,Controle sem fio,399.0
+30,7,Jogo lançamento,299.0
+31,7,Cadeira gamer,1199.0
+32,8,Roteador Wi-Fi 6,499.0
+33,8,Repetidor Wi-Fi,149.0
+34,8,Switch 8 portas,189.0

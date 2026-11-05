@@ -1,0 +1,7 @@
+grupo,clientes,taxa_abandono,recall,precisao
+Último pedido atrasado,272,0.724,0.975,0.741
+Último pedido no prazo,573,0.45,0.531,0.557
+Regiões distantes,349,0.636,0.824,0.712
+Regiões próximas,496,0.47,0.627,0.589
+1 pedido no histórico,248,0.573,0.718,0.646
+2 ou mais pedidos,597,0.524,0.725,0.654

@@ -1,0 +1,281 @@
+<html><head><meta charset="utf-8"><style>
+@page { size: A4; margin: 22mm 20mm 20mm 20mm }
+body { font-family: "Carlito", "Lato", "DejaVu Sans", Arial, sans-serif; font-size: 11pt; line-height: 1.45; color: #222 }
+h1 { font-size: 20pt; margin: 0 0 4mm } h2 { font-size: 14.5pt; margin: 7mm 0 2mm; page-break-after: avoid } h3 { font-size: 12pt; margin: 5mm 0 1.5mm; page-break-after: avoid }
+table { border-collapse: collapse; width: 100%; margin: 2mm 0 3mm; font-size: 10pt; page-break-inside: avoid } th, td { border: 1px solid #555; padding: 1.4mm 2mm; text-align: left; vertical-align: top } th { background: #f0f0f0 }
+p { margin: 1.5mm 0 2mm } ul, ol { margin: 1mm 0 2mm; padding-left: 6mm } li { margin: 0.6mm 0 }
+.obj { font-style: normal } .obj b { font-weight: bold }
+pre { font-family: "DejaVu Sans Mono", monospace; font-size: 8.5pt; background: #f6f6f6; padding: 2.5mm; white-space: pre-wrap; page-break-inside: avoid }
+img { max-width: 100%; display: block; margin: 2mm auto } .leg { font-size: 10pt; color: #333; margin-top: 0 }
+.quebra { page-break-before: always } .nota { font-size: 9.5pt; color: #555 }
+</style></head><body>
+
+<h1>Aplicação do CRISP-DM à TechDF</h1>
+<table><tr><th style="width:28%">Item</th><th>Identificação</th></tr>
+<tr><td>Instituição</td><td>Centro Universitário do Distrito Federal – UDF</td></tr>
+<tr><td>Disciplina</td><td>Ciência de Dados e Aprendizagem de Máquina – A1</td></tr>
+<tr><td>Docente</td><td>Profa. Kadidja Valéria</td></tr>
+<tr><td>Autor</td><td>Gustavo Carvalho de Oliveira (matrícula: PREENCHER) – trabalho individual</td></tr>
+<tr><td>Projeto-base</td><td>TechDF, loja on-line fictícia de informática que vende para o Distrito Federal (cenário de estudo)</td></tr></table>
+
+<h2>Introdução</h2>
+<p>Este trabalho aplica as seis fases do CRISP-DM à TechDF para planejar e executar um projeto de mineração de dados que segmente os clientes e antecipe quais deles deixarão de comprar, a partir do histórico de pedidos da própria loja.</p>
+<p>A TechDF vende notebooks, celulares, monitores, games e acessórios e entrega em oito regiões administrativas do DF. A loja enfrenta dois problemas: muitos clientes compram uma vez e não voltam, e as campanhas de marketing são iguais para todos. Além disso, há reclamações frequentes de atraso nas regiões mais distantes do centro de distribuição. Na análise exploratória feita na Unidade II da disciplina, com uma amostra de 20 pedidos, já apareciam dois sinais: prazos maiores em Ceilândia e notas menores quando a entrega demorava. Este projeto amplia aquela investigação para toda a base.</p>
+<p>O CRISP-DM (Cross-Industry Standard Process for Data Mining) foi adotado por ser um processo padronizado, aplicável a qualquer setor e iterativo: as fases podem retornar umas às outras conforme surgem novas descobertas. Cada fase abaixo segue a estrutura do guia da disciplina: objetivo central, checklist de execução e aplicação prática à TechDF.</p>
+<table><tr><th>Sigla</th><th>Significado</th><th>Na TechDF</th></tr>
+<tr><td>CR (Cross-Industry)</td><td>Padrão aplicável a vários segmentos de mercado</td><td>Aplicado ao varejo on-line</td></tr>
+<tr><td>SP (Standard Process)</td><td>Processo padronizado e estruturado</td><td>As seis fases guiam as duas perguntas</td></tr>
+<tr><td>DM (Data Mining)</td><td>Focado em mineração de dados e análises preditivas</td><td>Clusterização (P1) e previsão de abandono (P2)</td></tr></table>
+<p>Como metodologia, o CRISP-DM define as fases típicas, as tarefas de cada uma e a relação entre a área de negócio e a área técnica. Como modelo de processo, dá uma visão do ciclo de vida completo e transforma um problema abstrato ("vender mais para quem já comprou") em um roteiro acionável. Três características orientam a aplicação:</p>
+<ul><li><b>Não linearidade:</b> as fases retornam umas às outras. Aqui, a avaliação levou de volta à modelagem duas vezes (limiar de decisão e número de grupos) e abriu uma nova pergunta de negócio.</li>
+<li><b>Centralidade dos dados:</b> o banco relacional de pedidos é o eixo que liga o entendimento e a preparação.</li>
+<li><b>Flexibilidade:</b> o processo foi adaptado a um trabalho individual, com sprints de uma semana.</li></ul>
+<p>Como a TechDF é um cenário de estudo, a base de dados foi simulada com regras de negócio e erros inseridos de propósito. As metas numéricas são propostas pelo autor e deveriam ser validadas com dados reais.</p>
+
+<h2>Perguntas de análise</h2>
+<table><tr><th style="width:36%">Pergunta</th><th>Técnica</th><th>Critério técnico</th></tr>
+<tr><td><b>P1.</b> Quais segmentos de clientes existem na TechDF e que ação de relacionamento oferecer a cada um?</td><td>Clusterização (K-means) e regras "segmento → ação"</td><td>Silhueta &gt; 0,25 e cada grupo com ≥ 5% dos clientes</td></tr>
+<tr><td><b>P2.</b> É possível prever quais clientes ativos não farão nenhum pedido nos próximos 90 dias?</td><td>Classificação (regressão logística, árvore de decisão e Random Forest)</td><td>Recall ≥ 0,70 e F1 acima do modelo base</td></tr></table>
+<p class="nota">Trabalho individual: as duas perguntas foram conduzidas por Gustavo Carvalho de Oliveira.</p>
+
+<h2>Fase 1 – Entendimento do Negócio</h2>
+<p>O objetivo de negócio é trocar a campanha única por ações de relacionamento direcionadas a cada tipo de cliente e agir antes que o cliente deixe de comprar.</p>
+<p class="obj"><b>Objetivo central da fase:</b> traduzir o problema da TechDF em metas técnicas viáveis antes de investir esforço computacional.</p>
+<h3>1.1 Objetivos de negócio e critérios de sucesso</h3>
+<table><tr><th>Pergunta</th><th>Objetivo de negócio</th><th>Critério de sucesso proposto</th></tr>
+<tr><td>P1</td><td>Enviar a cada segmento uma ação adequada ao seu comportamento de compra</td><td>Taxa de recompra em 90 dias pelo menos 15% maior no grupo que recebe a ação do que em um grupo de controle</td></tr>
+<tr><td>P2</td><td>Identificar, no início do mês, os clientes com risco de não voltar a comprar</td><td>Pelo menos 10% dos clientes alertados e contatados fazem um novo pedido em 90 dias, acima do grupo de controle</td></tr></table>
+<h3>1.2 Avaliação da situação</h3>
+<ul><li><b>Recursos:</b> banco PostgreSQL com pedidos, itens, clientes e produtos; análise em Python (pandas, scikit-learn, Seaborn), sem custo de licença.</li>
+<li><b>Riscos:</b> histórico curto (a loja começou em jan./2025); avaliação da entrega opcional, então parte dos pedidos não tem nota; erros de digitação no preço e pedidos duplicados por duplo clique; dados de clientes são pessoais e exigem cuidados da LGPD (Brasil, 2018).</li>
+<li><b>Custo-benefício:</b> os modelos rodam em lote, uma vez por mês, fora do site, com custo baixo. O benefício é reaproveitar clientes que já compraram, o que tende a custar menos do que conquistar novos.</li></ul>
+<h3>1.3 Metas técnicas de mineração de dados</h3>
+<ol><li><b>P1 – Segmentação (clusterização):</b> agrupar os clientes ativos por recência, frequência, valor gasto, ticket médio e proporção do gasto em games e notebooks; depois, associar cada grupo a uma ação de relacionamento.</li>
+<li><b>P2 – Classificação:</b> prever, para cada cliente ativo em uma data de corte, se ele não fará nenhum pedido nos 90 dias seguintes ("abandono").</li></ol>
+<h3>1.4 Plano de projeto</h3>
+<p>O plano reserva para a Preparação dos Dados a maior fatia do tempo, seguindo a referência de 50% a 70% do esforço total indicada no guia.</p>
+<table><tr><th>Fase</th><th>Sprints (1 semana)</th><th>Entrega</th></tr>
+<tr><td>1. Entendimento do negócio</td><td>0,5</td><td>Objetivos, critérios e metas técnicas</td></tr>
+<tr><td>2. Entendimento dos dados</td><td>1</td><td>Relatório de qualidade (SQL V1–V6) e KPIs</td></tr>
+<tr><td>3. Preparação dos dados</td><td>4 (50% do total)</td><td>Tabela de clientes e tabela de risco por corte</td></tr>
+<tr><td>4. Modelagem</td><td>1</td><td>Modelos treinados e métricas técnicas</td></tr>
+<tr><td>5. Avaliação</td><td>0,5</td><td>Decisão: implementar ou iterar</td></tr>
+<tr><td>6. Implementação</td><td>1</td><td>Protótipo do job mensal, dashboard e monitoramento</td></tr>
+<tr><td><b>Total</b></td><td><b>8</b></td><td></td></tr></table>
+
+<h2>Fase 2 – Entendimento dos Dados</h2>
+<p>Todos os dados necessários já existem no banco de pedidos da loja, mas o registro manual e o processo de checkout geram problemas de qualidade que precisam ser tratados antes da modelagem.</p>
+<p class="obj"><b>Objetivo central da fase:</b> acessar, quantificar e qualificar a matéria-prima disponível para evitar falhas imprevistas na modelagem.</p>
+<h3>2.1 Coleta dos dados iniciais</h3>
+<table><tr><th>Tabela</th><th>Atributos de interesse</th><th>Uso no projeto</th></tr>
+<tr><td>Pedido</td><td>idCliente, dataPedido, idFormaPagamento, status, prazoEntregaDias, avaliacao, valorFrete</td><td>Recência, frequência, atraso e satisfação</td></tr>
+<tr><td>ItemPedido</td><td>idProduto, quantidade, precoUnitario</td><td>Valor de cada pedido e mix de produtos</td></tr>
+<tr><td>Produto / Categoria</td><td>34 produtos em 8 categorias, preço de lista</td><td>Detectar preço digitado errado; perfil de compra</td></tr>
+<tr><td>Cliente / Regiao</td><td>região administrativa, data de cadastro, programa de fidelidade, e-mail</td><td>Atraso por região; hipótese da fidelidade</td></tr>
+<tr><td>FormaPagamento</td><td>crédito, Pix, boleto, débito</td><td>Efeito do boleto no prazo</td></tr></table>
+<h3>2.2 Descrição de quantidade e qualidade</h3>
+<ul><li><b>Volume:</b> 1.200 clientes, 4.776 pedidos e 7.956 itens, de jan./2025 a jun./2026.</li>
+<li><b>Tipos:</b> valores em Decimal(10,2); datas em Date; prazo e avaliação inteiros e opcionais (nulos em pedidos cancelados ou não avaliados).</li>
+<li><b>Códigos:</b> o cliente tem um e-mail, dado pessoal que precisa ser substituído por um código antes da análise.</li></ul>
+<h3>2.3 Exploração dos dados e hipóteses iniciais</h3>
+<p>A exploração usou consultas SQL (KPIs 1 a 7), histogramas de prazo e avaliação e o diagrama de dispersão prazo × avaliação. As hipóteses a testar são:</p>
+<ul><li><b>H1:</b> clientes cuja última entrega atrasou abandonam mais a loja.</li>
+<li><b>H2:</b> as regiões mais distantes do centro de distribuição recebem com mais atraso.</li>
+<li><b>H3:</b> clientes do programa de fidelidade compram com mais frequência.</li></ul>
+<h3>2.4 Verificação da qualidade</h3>
+<table><tr><th>Problema</th><th>Origem</th><th>Validação SQL</th><th>Encontrado</th></tr>
+<tr><td>Campos obrigatórios nulos</td><td>Falha de integração</td><td>V1</td><td>0</td></tr>
+<tr><td>Quantidade zero ou negativa</td><td>Edição manual do pedido</td><td>V2</td><td>25 itens</td></tr>
+<tr><td>Data futura</td><td>Relógio do servidor / importação</td><td>V3</td><td>30 pedidos</td></tr>
+<tr><td>Preço sem a vírgula (R$ 39900 no lugar de R$ 399,00)</td><td>Cadastro manual de promoção</td><td>V4 (&gt; 10× o preço de lista)</td><td>142 itens, R$ 20,3 mi inflados</td></tr>
+<tr><td>Pedido duplicado</td><td>Duplo clique em "Finalizar compra"</td><td>V5</td><td>45 pedidos</td></tr>
+<tr><td>Cancelado com avaliação</td><td>Status alterado depois da avaliação</td><td>V6</td><td>20 pedidos</td></tr></table>
+<p>O erro de maior impacto é o preço sem vírgula: os 142 itens somariam R$ 20,3 milhões, mais que o faturamento real do período inteiro (R$ 12,95 milhões). Sem a limpeza, qualquer indicador de valor ficaria inútil.</p>
+
+<h2>Fase 3 – Preparação dos Dados</h2>
+<p>A preparação transforma os pedidos brutos em duas tabelas analíticas, uma por cliente (P1) e outra por cliente em cada data de corte (P2). É a fase que consome mais tempo do projeto (4 de 8 sprints).</p>
+<p class="obj"><b>Objetivo central da fase:</b> transformar, limpar e empacotar os dados brutos em um formato digerível pelos algoritmos.</p>
+<h3>3.1 Selecionar (filtrar)</h3>
+<ul><li>Substituir o e-mail por um código pseudônimo gerado por função de hash (SHA-256), em linha com a LGPD.</li>
+<li>Considerar receita apenas de pedidos <b>entregues</b>; cancelados e devolvidos entram só como contagem.</li>
+<li>Definir <b>cliente ativo</b> como quem teve ao menos um pedido entregue nos 180 dias anteriores à data de corte. Clientes que já tinham saído antes disso não são alvo de uma ação de retenção.</li></ul>
+<h3>3.2 Limpar (tratar)</h3>
+<ul><li>Remover pedidos com data futura (V3) e duplicatas, mantendo o pedido de menor número (V5).</li>
+<li>Remover itens com quantidade ≤ 0 (V2) e dividir por 100 o preço maior que 10× o preço de lista (V4).</li>
+<li>Apagar a avaliação de pedidos cancelados (V6).</li>
+<li>Avaliação ausente em pedido entregue é tratada como "não avaliou", e não como nota baixa.</li></ul>
+<p>As mesmas regras estão nas views <code>pedido_base</code>, <code>item_limpo</code> e <code>pedido_limpo</code> do arquivo <code>techdf.sql</code> e no notebook, que chegam aos mesmos totais (4.300 pedidos entregues e R$ 12,95 milhões).</p>
+<h3>3.3 Construir (derivar atributos)</h3>
+<table><tr><th>Atributo derivado</th><th>Cálculo</th><th>Usado em</th></tr>
+<tr><td>recencia_dias, frequencia, valor_total, ticket_medio</td><td>Dias desde o último pedido; pedidos, soma e média dos últimos 12 meses</td><td>P1 e P2</td></tr>
+<tr><td>perc_games_notebooks</td><td>Gasto em Games + Notebooks ÷ gasto total</td><td>P1</td></tr>
+<tr><td>prazo_medio, perc_atrasados, ultimo_atrasado</td><td>Prazo médio; proporção e último pedido com prazo &gt; 5 dias</td><td>P2</td></tr>
+<tr><td>aval_media, perc_boleto, cancelamentos</td><td>Nota média; proporção paga no boleto; pedidos cancelados</td><td>P2</td></tr>
+<tr><td>dias_cadastro, fidelidade, regiao_distante</td><td>Tempo de conta; participa do programa; mora em Sobradinho, Samambaia, Ceilândia ou Gama</td><td>P2</td></tr>
+<tr><td><b>alvo:</b> abandono_90d</td><td>1 se não houver nenhum pedido nos 90 dias após o corte; 0 caso contrário</td><td>P2</td></tr></table>
+<p>Para evitar vazamento de dados, todos os atributos da P2 usam apenas pedidos até a data de corte, e o alvo usa apenas os 90 dias seguintes.</p>
+<h3>3.4 Integrar (mesclar)</h3>
+<p>Pedido é unido a ItemPedido, Produto, Cliente e Regiao pelas chaves estrangeiras. Exemplo da base limpa em SQL:</p>
+<pre>CREATE VIEW pedido_limpo AS
+SELECT pb.*, s.subtotal,
+       CASE WHEN pb."prazoEntregaDias" > 5 THEN 1 ELSE 0 END AS atrasado
+FROM pedido_base pb
+JOIN (SELECT "idPedido", SUM("quantidade" * "precoUnitario") AS subtotal
+      FROM item_limpo GROUP BY 1) s ON s."idPedido" = pb."idPedido";</pre>
+
+<h2>Fase 4 – Modelagem</h2>
+<p>A modelagem combina uma técnica de clusterização para descobrir segmentos e classificadores supervisionados para estimar o risco de abandono, sempre começando por modelos simples.</p>
+<p class="obj"><b>Objetivo central da fase:</b> aplicar técnicas matemáticas, gerar designs de teste e iterar parâmetros para descobrir padrões de alto valor.</p>
+<h3>4.1 Seleção das técnicas</h3>
+<table><tr><th>Meta técnica</th><th>Técnica</th><th>Justificativa</th></tr>
+<tr><td>Segmentos de clientes</td><td>K-means com atributos em log e padronizados (StandardScaler)</td><td>Simples, rápido e com grupos explicáveis pela mediana de cada atributo</td></tr>
+<tr><td>Abandono (modelo base)</td><td>Regressão logística com peso de classe balanceado</td><td>Referência mínima e coeficientes interpretáveis</td></tr>
+<tr><td>Abandono (candidatos)</td><td>Árvore de decisão e Random Forest</td><td>Capturam relações não lineares e interações</td></tr>
+<tr><td>Ação por segmento</td><td>Regras "segmento → ação"</td><td>Liga a análise ao que o marketing já sabe fazer</td></tr></table>
+<h3>4.2 Design de teste (partição treino/teste)</h3>
+<ul><li><b>Partição temporal:</b> três datas de corte (set./2025, dez./2025 e mar./2026). Treino nos dois primeiros cortes e teste no último, cujo alvo cobre abr. a jun./2026. Uma divisão aleatória misturaria passado e futuro (vazamento).</li>
+<li><b>Limiar de decisão:</b> escolhido com validação temporal só no treino (treina em set./2025, valida em dez./2025), nunca no teste.</li>
+<li><b>Escolha de k:</b> testar k de 3 a 6 pelo coeficiente de silhueta.</li></ul>
+<h3>4.3 Metas técnicas</h3>
+<table><tr><th>Modelo</th><th>Métrica</th><th>Meta</th></tr>
+<tr><td>K-means</td><td>Silhueta</td><td>&gt; 0,25 e grupos com pelo menos 5% dos clientes</td></tr>
+<tr><td>Classificadores</td><td>Recall da classe "abandono"</td><td>≥ 0,70</td></tr>
+<tr><td>Classificadores</td><td>F1 e AUC-ROC</td><td>Superar a regressão logística (modelo base)</td></tr></table>
+<p>O recall foi priorizado porque deixar de agir sobre um cliente que vai sair custa mais do que enviar uma ação a quem voltaria de qualquer forma.</p>
+
+<h2>Fase 5 – Avaliação</h2>
+<p>Os modelos só seguem para produção se atenderem aos critérios de negócio da Fase 1; uma boa silhueta ou um bom recall, sozinhos, não bastam.</p>
+<p class="obj"><b>Objetivo central da fase:</b> medir a eficácia dos modelos finais exclusivamente pela lente dos critérios de sucesso definidos na Fase 1.</p>
+<h3>5.1 Os resultados respondem à meta?</h3>
+<ul><li><b>Segmentos:</b> teste A/B por 90 dias. Metade de cada segmento recebe a ação; a outra metade, a campanha comum. A meta é recompra 15% maior no grupo tratado.</li>
+<li><b>Alerta de abandono:</b> metade dos clientes alertados é contatada e a outra metade não. Compara-se quantos fazem novo pedido em 90 dias.</li>
+<li><b>Sentido comercial:</b> os segmentos precisam fazer sentido para o marketing; a ação "frete grátis" precisa caber na margem dos produtos baratos.</li></ul>
+<h3>5.2 Revisão de falhas no processo</h3>
+<ul><li>Conferir se nenhum atributo usa informação posterior à data de corte.</li>
+<li>Conferir viés por região: as regiões distantes têm mais atraso e mais abandono, e o modelo pode virar só um "detector de CEP".</li>
+<li>Conferir se o histórico curto dos primeiros cortes distorce frequência e valor.</li></ul>
+<h3>5.3 Decisão: implementar ou iterar?</h3>
+<table><tr><th>Situação encontrada</th><th>Decisão</th></tr>
+<tr><td>Critérios técnicos e de negócio atingidos</td><td>Implementar (Fase 6)</td></tr>
+<tr><td>Recall abaixo da meta</td><td>Voltar à Fase 4 e ajustar o limiar com validação no treino</td></tr>
+<tr><td>Candidatos não superam o modelo base</td><td>Manter o modelo mais simples</td></tr>
+<tr><td>O alerta marca clientes demais para a equipe atender</td><td>Voltar à Fase 1 e rever a ação: priorizar os de maior risco ou atacar a causa</td></tr></table>
+
+<h2>Fase 6 – Implementação</h2>
+<p>Os modelos aprovados entram como um processamento mensal em lote, cujos resultados alimentam a ferramenta de e-mail marketing e o painel da gerência.</p>
+<p class="obj"><b>Objetivo central da fase:</b> incorporar formalmente os modelos ao sistema ou usar as descobertas para mudar a estratégia.</p>
+<h3>6.1 Plano de implementação</h3>
+<ol><li>Um job em Python, no primeiro dia de cada mês, lê uma cópia somente leitura do banco, recalcula os atributos e aplica os modelos.</li>
+<li>Os resultados vão para duas tabelas novas: <b>SegmentoCliente</b> (cliente, segmento, ação, data) e <b>AlertaAbandono</b> (cliente, mês, probabilidade).</li>
+<li>A ferramenta de e-mail marketing lê essas tabelas e dispara a ação de cada segmento; a equipe de atendimento recebe a lista de alertas ordenada pela probabilidade.</li></ol>
+<h3>6.2 Plano de monitoramento</h3>
+<ul><li>Comparar, todo mês, a média dos atributos com a do período de treino (data drift), usando janelas de mesmo tamanho.</li>
+<li>Medir o recall real: dos clientes que não voltaram em 90 dias, quantos tinham sido alertados.</li>
+<li>Acompanhar a taxa de recompra de cada segmento e do grupo de controle.</li>
+<li>Retreinar a cada trimestre ou quando alguma métrica cair abaixo da meta.</li></ul>
+<h3>6.3 Papéis</h3>
+<table><tr><th>Papel</th><th>Responsabilidade</th></tr>
+<tr><td>Gerente de e-commerce (patrocinador)</td><td>Aprovar metas, ações e o teste A/B</td></tr>
+<tr><td>Analista de dados (Gustavo)</td><td>Manter o job, o monitoramento e o retreino</td></tr>
+<tr><td>TI / banco de dados</td><td>Criar as tabelas novas e a cópia somente leitura</td></tr>
+<tr><td>Marketing e logística</td><td>Executar as ações e tratar as causas de atraso</td></tr></table>
+<h3>6.4 Privacidade e transparência</h3>
+<p>A análise usa códigos pseudônimos, e o e-mail só volta a ser associado no envio da campanha, dentro da ferramenta de marketing. O cliente pode recusar comunicações de marketing a qualquer momento, e nenhuma decisão de crédito ou preço é tomada com base no modelo.</p>
+<h3>6.5 Relatório final, feedback e revisão</h3>
+<p>Ao final, entregam-se o relatório, o dashboard e os resultados do teste A/B. Um feedback esperado é o incômodo com mensagens em excesso; por isso, cada cliente recebe no máximo uma ação por mês.</p>
+
+<h2>Síntese prática e iterações previstas</h2>
+<p>Em uma frase: partimos de um problema real de varejo (clientes que não voltam), transformamos os pedidos em segmentos e previsões e devolvemos ao negócio uma ação por segmento e uma lista de risco.</p>
+<img src="fluxo.png" style="width:92%"><p class="leg">Fluxo CRISP-DM aplicado à TechDF · 6 fases</p>
+<p>O fluxo não é linear. No CRISP-DM, recuar não é falhar: cada volta no ciclo melhora o projeto. Os retornos que de fato aconteceram neste trabalho foram:</p>
+<table><tr><th>De → Para</th><th>Motivo</th></tr>
+<tr><td>Avaliação → Modelagem</td><td>O recall ficou em 0,64 com o limiar padrão; o limiar foi reescolhido com validação no treino</td></tr>
+<tr><td>Avaliação → Modelagem</td><td>Teste com k = 4 para ver se o grupo de baixo ticket se dividia de forma útil</td></tr>
+<tr><td>Avaliação → Negócio</td><td>O alerta marca a maioria dos clientes e o atraso é o sinal mais forte: talvez a ação certa seja logística, e não marketing</td></tr></table>
+
+<h2>Matriz de realidade do projeto</h2>
+<p>O sucesso do projeto depende da comunicação entre áreas com focos opostos: as fases de negócio pedem o patrocinador, e as fases técnicas pedem o analista de dados.</p>
+<img src="matriz.png" style="width:85%"><p class="leg">Matriz de realidade do projeto · 6 fases em dois eixos</p>
+<p>Na TechDF, o gerente de e-commerce conduz o Entendimento do Negócio e a Avaliação. O analista de dados concentra a Preparação e a Modelagem. O Entendimento dos Dados e a Implementação exigem TI, logística e marketing trabalhando juntos.</p>
+
+<h2>Resumo executivo: checklist para o sucesso</h2>
+<ul><li>☒ <b>Comece pelo negócio:</b> as duas perguntas nasceram de problemas concretos da loja — clientes que não voltam e campanha única.</li>
+<li>☒ <b>Respeite o atrito:</b> metade do plano foi reservada para a preparação, que corrigiu preços sem vírgula, duplicatas e datas futuras.</li>
+<li>☒ <b>Abrace a iteração:</b> modelos simples rodaram primeiro, e a avaliação fez o ciclo voltar à modelagem (limiar e valor de k) e ao negócio.</li>
+<li>☒ <b>Meça o impacto:</b> os critérios finais são de negócio (recompra em 90 dias) e serão medidos com grupo de controle.</li>
+<li>☒ <b>Documente a jornada:</b> o repositório traz o SQL, o PDF das consultas, o notebook e o dashboard.</li></ul>
+
+<h2 class="quebra">Parte prática (dados simulados)</h2>
+<p>O notebook em Python que acompanha este trabalho executou as seis fases sobre uma base simulada. Três dos quatro critérios técnicos foram atingidos; o quarto (superar o modelo base) não foi, e por isso o modelo mais simples foi mantido. A avaliação também revelou que o atraso na entrega é o principal sinal de abandono.</p>
+<p>A base foi gerada com a estrutura de um banco relacional de e-commerce (Cliente, Pedido, ItemPedido, Produto, Categoria, Regiao e FormaPagamento), com perfis de compra, prazos por região e erros inseridos de propósito. São 1.200 clientes e 4.776 pedidos de jan./2025 a jun./2026. Os números demonstram o método e não descrevem uma empresa real. O repositório (TechDF-CRISP-DM-Analysis) reúne:</p>
+<ul><li><b>Dados:</b> as sete tabelas em CSV.</li>
+<li><b>SQL:</b> <code>techdf.sql</code> (PostgreSQL), com validações (V1–V6), três views da base limpa, sete KPIs e duas consultas de apoio.</li>
+<li><b>Relatório das consultas:</b> <code>TechDF_Analise_SQL.pdf</code>, com cada consulta e seu resultado.</li>
+<li><b>Notebook:</b> abre no Google Colab e gera a própria base.</li>
+<li><b>Dashboard:</b> três páginas feitas com Pandas, Seaborn e Matplotlib, no lugar do Power BI.</li></ul>
+
+<h3>Fases 2 e 3 – Qualidade e indicadores</h3>
+<p>A verificação encontrou 30 pedidos com data futura, 45 duplicados, 20 cancelados com avaliação, 25 itens com quantidade zero e 142 preços sem vírgula. Depois da limpeza restaram 4.691 pedidos, dos quais 4.300 entregues. Os KPIs do SQL mostram:</p>
+<table><tr><th>Indicador</th><th>Valor</th><th>Fonte</th></tr>
+<tr><td>Faturamento · ticket médio</td><td>R$ 12,95 mi · R$ 3.012,56</td><td>KPI 1</td></tr>
+<tr><td>Pedidos entregues com mais de 5 dias</td><td>26,3%</td><td>KPI 1</td></tr>
+<tr><td>Maior categoria</td><td>Notebooks (37,0% do faturamento), seguida de Celulares (26,9%)</td><td>KPI 3</td></tr>
+<tr><td>Cartão de crédito · Pix</td><td>50,2% · 30,8% do faturamento</td><td>KPI 4</td></tr>
+<tr><td>Atraso: Plano Piloto × Gama</td><td>7,7% × 86,4% dos pedidos (prazo médio 3,1 × 7,3 dias)</td><td>KPI 5</td></tr>
+<tr><td>Avaliação: até 3 dias × 8 dias ou mais</td><td>4,94 × 2,56</td><td>KPI 6</td></tr>
+<tr><td>Recompra em 90 dias após a 1ª compra: no prazo × atrasada</td><td>64,0% × 46,1%</td><td>KPI 7</td></tr>
+<tr><td>Pedidos por cliente: com × sem fidelidade</td><td>4,99 × 3,22</td><td>Consulta B</td></tr></table>
+<p>O KPI 5 confirma a hipótese H2: as quatro regiões mais distantes têm de 29% a 86% de pedidos atrasados, contra 8% a 14% nas próximas. O faturamento mensal (KPI 2) cresce até mar./2026 e cai nos três meses seguintes, de R$ 1,21 mi para R$ 0,73 mi.</p>
+<img src="01_visao_geral.png" style="width:100%"><p class="leg">Dashboard, página 1 – visão geral de vendas e entregas</p>
+
+<h3>Diagrama de dispersão e regressão linear</h3>
+<p>Quanto maior o prazo médio de entrega de um cliente, menor a nota que ele dá. A reta das regiões distantes é mais inclinada e começa de um prazo médio bem maior.</p>
+<img src="03_dispersao_prazo_avaliacao.png" style="width:100%">
+<p>Cada ponto é um cliente, com o prazo médio das suas entregas avaliadas no eixo x e a avaliação média no eixo y. A reta foi ajustada por regressão linear simples (mínimos quadrados), e o R² indica quanto da variação da nota é explicado pelo prazo.</p>
+<table><tr><th>Grupo</th><th>Clientes</th><th>Equação da reta</th><th>R²</th><th>Prazo médio</th></tr>
+<tr><td>Todos</td><td>1.141</td><td>avaliação = −0,27 × prazo + 5,81</td><td>0,72</td><td>4,9 dias</td></tr>
+<tr><td>Regiões próximas</td><td>645</td><td>avaliação = −0,26 × prazo + 5,71</td><td>0,71</td><td>3,7 dias</td></tr>
+<tr><td>Regiões distantes</td><td>496</td><td>avaliação = −0,34 × prazo + 6,38</td><td>0,73</td><td>6,3 dias</td></tr></table>
+<p>Cada dia a mais de prazo vem acompanhado de cerca de 0,27 ponto a menos na avaliação. A reta também mostra um limite do modelo linear: para prazos acima de 18 dias ela prevê notas abaixo de 1, o que é impossível em uma escala de 1 a 5. A relação vale dentro da faixa observada, e não é prova de causa — é uma associação na base simulada.</p>
+
+<h3>Fase 4 – Resultados da modelagem</h3>
+<p><b>Pergunta 1:</b> entre 737 clientes ativos em jun./2026, o K-means escolheu k = 3 pelo coeficiente de silhueta (0,31; com k = 4, 5 e 6 os valores foram 0,28, 0,27 e 0,26).</p>
+<table><tr><th>Segmento</th><th>Clientes</th><th>Traço principal (medianas)</th><th>Ação recomendada</th></tr>
+<tr><td>Fiéis de alto valor</td><td>214 (29%)</td><td>Última compra há 17 dias; 6 pedidos; R$ 17.965 gastos</td><td>Programa de fidelidade e acesso antecipado a lançamentos, sem cupom de desconto</td></tr>
+<tr><td>Alto ticket em games e notebooks</td><td>264 (36%)</td><td>Ticket de R$ 4.351; 75% do gasto em games e notebooks; última compra há 98 dias</td><td>Acessórios complementares e garantia estendida após a compra</td></tr>
+<tr><td>Ocasionais de baixo ticket</td><td>259 (35%)</td><td>2 pedidos; ticket de R$ 593; nada em games ou notebooks</td><td>Frete grátis acima de R$ 299 e desconto no Pix</td></tr></table>
+<p><b>Pergunta 2:</b> previsão de abandono em 90 dias, com treino nos cortes de set. e dez./2025 (1.326 linhas) e teste no corte de mar./2026 (845 clientes, 53,8% de abandono):</p>
+<table><tr><th>Modelo (teste)</th><th>Recall</th><th>Precisão</th><th>F1</th><th>AUC-ROC</th></tr>
+<tr><td>Regressão logística (base), limiar 0,5</td><td>0,640</td><td>0,683</td><td>0,661</td><td>0,690</td></tr>
+<tr><td>Árvore de decisão, limiar 0,5</td><td>0,473</td><td>0,724</td><td>0,572</td><td>0,682</td></tr>
+<tr><td>Random Forest, limiar 0,5</td><td>0,620</td><td>0,668</td><td>0,643</td><td>0,694</td></tr>
+<tr><td><b>Regressão logística, limiar 0,45 (final)</b></td><td><b>0,723</b></td><td><b>0,651</b></td><td><b>0,685</b></td><td><b>0,690</b></td></tr></table>
+<img src="02_modelos.png" style="width:100%"><p class="leg">Dashboard, página 2 – segmentos e risco de abandono</p>
+
+<h3>Fase 5 – Avaliação e iterações</h3>
+<ul><li><b>Critérios técnicos:</b> silhueta 0,31 (meta &gt; 0,25) ✔; menor grupo com 29% dos clientes (meta ≥ 5%) ✔; recall 0,723 depois da iteração (meta ≥ 0,70) ✔; F1 dos candidatos acima do modelo base ✘ — a árvore (0,572) e o Random Forest (0,643) ficaram abaixo da regressão logística (0,661).</li>
+<li><b>Iteração 1 – limiar:</b> com o limiar de 0,5, nenhum modelo chegava a recall 0,70. Treinando no corte de set./2025 e validando no de dez./2025, o maior limiar com recall ≥ 0,70 foi 0,45 (recall de validação 0,719). Aplicado uma única vez ao teste, deu recall 0,723.</li>
+<li><b>Decisão sobre o modelo:</b> como os candidatos não superaram a base, o modelo final é a própria regressão logística. Ela é mais simples de explicar, e o maior coeficiente padronizado é o de "último pedido atrasado" (+0,74), seguido da recência (+0,35).</li>
+<li><b>Iteração 2 – valor de k:</b> com k = 4 (silhueta 0,28), o grupo de baixo ticket se divide em dois (ticket de R$ 365 e de R$ 1.627), mas os dois receberiam a mesma ação. O ganho não compensou, e k = 3 foi mantido.</li>
+<li><b>Hipóteses:</b> H1 — 70,9% dos clientes cujo último pedido atrasou abandonaram em 90 dias, contra 44,5% dos que receberam no prazo; H2 — confirmada pelo KPI 5; H3 — clientes da fidelidade fazem 4,99 pedidos contra 3,22, mas é uma correlação: clientes que já compram muito tendem a entrar no programa.</li>
+<li><b>Nova pergunta:</b> o modelo acerta 97,5% dos abandonos de quem teve o último pedido atrasado, mas só 53,1% dos que receberam no prazo. Ele é bom em reconhecer o efeito do atraso, que é justamente o que a loja pode corrigir na origem. Isso leva de volta à Fase 1: em vez de só mandar campanhas, vale atacar a logística em Gama e Ceilândia.</li></ul>
+
+<h3>Fase 6 – Protótipo do job mensal</h3>
+<p>O notebook gera, para cada cliente ativo, o segmento, a ação e a probabilidade de abandono. Na simulação, 508 dos 737 clientes ativos (69%) receberiam alerta em jul./2026, a maioria dos segmentos "alto ticket" (225 de 264) e "baixo ticket" (218 de 259). É alerta demais para um contato individual, então a recomendação é que a equipe aborde apenas os clientes de maior probabilidade, dentro da sua capacidade, e que os demais recebam só a ação automática do segmento.</p>
+<p>O monitoramento de drift comparou a média dos atributos do treino com a do corte mais recente. A frequência e o valor gasto subiram cerca de 40%, mas não por mudança de comportamento: a loja começou em jan./2025, e os primeiros cortes têm menos meses de histórico. O monitoramento real deve comparar janelas do mesmo tamanho.</p>
+
+<h2>Considerações finais</h2>
+<p>A aplicação do CRISP-DM mostrou que o banco de pedidos da TechDF já tem os dados necessários para segmentar clientes e prever abandono, mas que o maior esforço está na qualidade desses dados: um único tipo de erro (o preço sem vírgula) mais que dobraria o faturamento. O roteiro em seis fases converteu um problema comercial em metas técnicas mensuráveis e em um plano de implementação simples, em lote e com grupo de controle.</p>
+<p>Respondendo às perguntas de análise, com base nos dados simulados:</p>
+<ul><li><b>P1:</b> sim, há segmentos distintos. O K-means encontrou três: Fiéis de alto valor (214 clientes), Alto ticket em games e notebooks (264) e Ocasionais de baixo ticket (259), com silhueta de 0,31, e cada um recebeu uma ação diferente. A eficácia das ações só pode ser confirmada no teste A/B.</li>
+<li><b>P2:</b> sim, com ressalvas. A regressão logística, com limiar escolhido no treino, detectou 72,3% dos abandonos (recall 0,723; AUC 0,69), acima da meta de 0,70, mas marca a maioria dos clientes e funciona melhor justamente para quem teve atraso na entrega. O resultado mais útil para o negócio é a constatação de que o atraso — concentrado nas regiões distantes — é o principal sinal de abandono.</li></ul>
+
+<h2>Referências</h2>
+<p>BRASIL. Lei nº 13.709, de 14 de agosto de 2018. Lei Geral de Proteção de Dados Pessoais (LGPD). Brasília, DF: Presidência da República, 2018.</p>
+<p>CHAPMAN, P. et al. <i>CRISP-DM 1.0</i>: step-by-step data mining guide. [S. l.]: SPSS, 2000.</p>
+<p>McKINNEY, W. Data structures for statistical computing in Python. In: PYTHON IN SCIENCE CONFERENCE, 9., 2010, Austin. <i>Proceedings</i> [...]. Austin: SciPy, 2010. p. 56-61.</p>
+<p>PEDREGOSA, F. et al. Scikit-learn: machine learning in Python. <i>Journal of Machine Learning Research</i>, v. 12, p. 2825-2830, 2011.</p>
+<p>VALÉRIA, K. <i>Guia definitivo</i>: o modelo CRISP-DM. Material didático da disciplina Ciência de Dados e Aprendizagem de Máquina. Brasília: UDF, 2026.</p>
+<p>WASKOM, M. L. seaborn: statistical data visualization. <i>Journal of Open Source Software</i>, v. 6, n. 60, p. 3021, 2021.</p>
+<p class="nota">Uso de IA: assistente de IA (Claude) usado para apoiar a escrita do código, das consultas e do texto. O notebook e o SQL foram executados e os números conferidos entre as duas fontes.</p>
+</body></html>

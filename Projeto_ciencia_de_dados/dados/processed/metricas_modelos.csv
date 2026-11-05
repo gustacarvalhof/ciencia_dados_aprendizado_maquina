@@ -1,0 +1,5 @@
+,recall,precisao,f1,auc
+Regressão logística (base),0.64,0.683,0.661,0.69
+Árvore de decisão,0.473,0.724,0.572,0.682
+Random Forest,0.62,0.668,0.643,0.694
+"Reg. logística, limiar 0,45",0.723,0.651,0.685,0.69

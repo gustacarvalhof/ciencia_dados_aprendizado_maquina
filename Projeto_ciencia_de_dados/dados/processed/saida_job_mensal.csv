@@ -1,0 +1,738 @@
+codCliente,segmento,acao,prob_abandono,alerta
+009b392957,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.684,True
+00d08785b8,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.796,True
+0178c820c4,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.244,False
+019632d46b,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.416,False
+01fc49d51d,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.409,False
+0207c4e9f1,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.621,True
+0280b20ba3,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.252,False
+02c2b9be56,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.331,False
+02dc65be8f,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.497,True
+033357d69d,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.751,True
+038a31234e,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.792,True
+03ebb07c8d,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.63,True
+040c4d8523,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.154,False
+0546e24405,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.718,True
+0546f72821,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.501,True
+06034d11bc,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.554,True
+066b6c94f9,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.361,False
+069a050bd1,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.782,True
+072680d340,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.451,True
+0730683a19,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.442,False
+07b38b8916,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.583,True
+07ec67c8eb,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.626,True
+080a3c1ed4,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.768,True
+08361db374,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.221,False
+0955016469,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.696,True
+09ea005200,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.116,False
+09f1f7c56b,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.557,True
+09fd21dc7f,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.829,True
+0a5982d6e3,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.463,True
+0ae45887fd,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.59,True
+0b5595122e,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.188,False
+0b6246b3fc,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.196,False
+0b7b9bf2ce,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.593,True
+0c791f743e,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.549,True
+0cf188567b,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.513,True
+0de104967b,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.74,True
+0e9c02f09a,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.751,True
+0f19391b2a,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.506,True
+0fa03ea4cb,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.744,True
+10aa863d89,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.309,False
+10ca558748,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.731,True
+10ecb2220b,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.473,True
+112cdf801e,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.715,True
+1138aa2fb9,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.615,True
+115b2b30f9,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.682,True
+11e6c23e02,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.63,True
+120b837878,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.882,True
+123dfddfed,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.541,True
+12802dfcbf,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.536,True
+1328cab6ae,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.445,False
+137459b5a1,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.429,False
+13defc421a,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.633,True
+13ee4fedaf,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.583,True
+140142684d,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.812,True
+141120d140,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.503,True
+145a9f74b8,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.467,True
+147a49ac1c,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.825,True
+14dcdf70ab,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.354,False
+15885907ae,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.699,True
+15d52cf5c0,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.698,True
+15debb7538,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.864,True
+16a35a4458,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.281,False
+1726da1ed8,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.806,True
+17586012da,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.411,False
+1780aed026,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.684,True
+17a8658a7e,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.846,True
+18576a2ba8,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.749,True
+1878946559,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.359,False
+18880fee9c,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.718,True
+18bc5b9716,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.539,True
+19102aa74f,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.246,False
+196159eea5,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.641,True
+197e643b05,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.348,False
+1997e7a43a,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.262,False
+19f13e7cd3,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.616,True
+19f5267d88,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.45,False
+1a9d6e42e6,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.673,True
+1ad46f7373,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.657,True
+1afa8c0b16,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.412,False
+1aff6b4bd1,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.306,False
+1b190fbec4,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.465,True
+1b618527e7,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.559,True
+1b6ae3589b,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.597,True
+1b8838b63e,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.685,True
+1bf42971be,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.429,False
+1c4f8e74c2,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.765,True
+1c5bf81826,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.762,True
+1c5dab4beb,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.87,True
+1d4545d4fa,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.618,True
+1e496313d5,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.149,False
+1ebe81427b,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.584,True
+1f01474d75,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.665,True
+1f5895d9ea,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.357,False
+1f5f7e9074,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.311,False
+1f6fae8782,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.84,True
+1f7fd3de28,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.48,True
+1fb5020333,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.395,False
+1fe69adace,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.459,True
+2081be9a36,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.838,True
+20de93714d,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.624,True
+20df737866,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.57,True
+212cc59f89,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.549,True
+21a74c0f68,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.804,True
+21c0e50461,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.548,True
+21f9209b6c,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.553,True
+220fd385fd,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.695,True
+221b4d793d,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.647,True
+22518d5d3b,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.18,False
+2271837985,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.242,False
+229fe80491,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.746,True
+22dc51094c,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.438,False
+2385bdf9ca,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.474,True
+23aa3fa269,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.328,False
+23ee0be64b,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.675,True
+2407a4035e,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.321,False
+247e5a72a2,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.359,False
+24ce7efacf,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.806,True
+24f156f6aa,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.682,True
+261b7fb09b,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.639,True
+26270957a8,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.65,True
+2666fe23cf,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.8,True
+2808baaf0c,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.507,True
+283c2f0930,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.434,False
+28dbb31b06,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.534,True
+292cf5a1b2,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.538,True
+295adb04a3,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.685,True
+2a12f24a06,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.479,True
+2aaa03136d,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.453,True
+2ab0a6f0bb,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.771,True
+2ab4564f20,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.431,False
+2ae6066df5,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.63,True
+2b555aa6dd,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.48,True
+2bcf0acfa4,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.727,True
+2c1fd48e52,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.145,False
+2c49dd2976,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.222,False
+2cbfb2d257,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.173,False
+2de0ed056d,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.358,False
+2dfdec4e8f,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.753,True
+2ef439e4ad,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.591,True
+2f915dc4a0,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.778,True
+2fe8a604a9,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.515,True
+2ff3046343,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.592,True
+3073d94053,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.543,True
+30c4544d99,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.206,False
+30dd66104f,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.477,True
+31973c0f7d,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.58,True
+31d04d514f,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.572,True
+3210e4f058,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.453,True
+3280c0e4a9,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.332,False
+334d3df30c,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.659,True
+33b89ae9ea,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.688,True
+33cbf83e7a,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.674,True
+341b892678,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.33,False
+3426605063,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.826,True
+34b27e56cb,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.815,True
+34ba604579,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.125,False
+3510f9ea93,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.324,False
+35966bdc68,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.757,True
+35da2660b0,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.472,True
+35f60bc315,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.637,True
+35f9173f73,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.643,True
+36c22e1b15,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.479,True
+37e0954e61,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.889,True
+3970153513,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.62,True
+3974328cb8,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.779,True
+3979b9ba18,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.886,True
+397a7f80b3,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.592,True
+39b3aa4e94,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.359,False
+3a1e85a01f,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.787,True
+3a67a5a632,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.447,False
+3aaee42762,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.868,True
+3ad18129c9,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.384,False
+3b1afe046a,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.194,False
+3b3311fdc0,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.797,True
+3b61883356,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.789,True
+3c2519b488,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.911,True
+3c5fbf75f6,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.66,True
+3ca5c184de,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.341,False
+3d47981258,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.805,True
+3dd07997bb,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.729,True
+3dedd61e7c,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.343,False
+3e69f5d1ed,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.723,True
+3ee023c6e0,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.605,True
+3f4ad2cbef,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.857,True
+3fe05495ba,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.641,True
+3ff3df329e,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.564,True
+4043b2fa12,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.239,False
+40d2e868a9,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.429,False
+40ed7ef2a3,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.454,True
+41e45bc5a8,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.737,True
+422d441837,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.574,True
+4248adb98e,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.589,True
+426eb4b3c3,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.159,False
+42857c205f,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.612,True
+42ed60f1e9,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.586,True
+435f7c24a4,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.237,False
+4394d48c43,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.648,True
+439f4fc3b6,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.931,True
+441462cbed,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.498,True
+44e591540c,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.46,True
+44e686cb32,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.247,False
+452f37e46c,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.478,True
+4585d8ab41,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.548,True
+46c2cf5f1e,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.536,True
+47082ffada,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.785,True
+4792bbc707,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.316,False
+47b333e04a,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.305,False
+47ed590702,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.458,True
+4847919973,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.509,True
+4893fa953b,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.615,True
+48a7969636,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.565,True
+48f1f9cdf2,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.829,True
+497403decd,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.64,True
+49a4f3d5e7,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.343,False
+4a2f3093eb,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.711,True
+4a33c43ad0,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.41,False
+4a5e648dd1,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.486,True
+4b883a2863,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.443,False
+4c2f2530c0,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.823,True
+4de4975102,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.585,True
+4f61d2d62b,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.544,True
+4f9126c785,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.438,False
+4ff3d1d1da,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.518,True
+502c553df9,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.323,False
+5040ae9da2,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.535,True
+506ac1b1cb,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.215,False
+50b2ce25b5,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.532,True
+50b816be5b,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.305,False
+5106c5c200,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.63,True
+515333afe8,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.748,True
+5167c28a84,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.799,True
+5170698288,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.748,True
+51bb9f4e59,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.623,True
+5258cf409c,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.578,True
+52727e9114,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.158,False
+5353e0de7d,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.672,True
+5391693d9a,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.408,False
+53a3b1415d,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.711,True
+53c65cb13f,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.279,False
+54c6a2816c,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.842,True
+551bc8aecd,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.482,True
+556c5feeae,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.681,True
+5583cb368b,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.67,True
+569514202e,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.782,True
+5697b565a4,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.726,True
+56bcccdfd4,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.76,True
+572aea1f51,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.368,False
+573684032d,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.604,True
+57519dd1ed,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.801,True
+57a7e447d6,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.809,True
+57be1c2833,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.33,False
+581c55cb17,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.847,True
+5866e37aba,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.435,False
+58a03a15be,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.524,True
+58b43149a8,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.697,True
+58df573dcd,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.461,True
+5917423fd5,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.722,True
+59577ffb1e,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.784,True
+59a04279bb,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.484,True
+59cee67b5b,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.596,True
+59f6396069,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.637,True
+59f92beaa9,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.47,True
+5aceb5af6c,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.159,False
+5af9d4f7b5,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.35,False
+5b271d1646,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.727,True
+5b85f64caf,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.828,True
+5bc3380616,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.831,True
+5bc649a51a,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.399,False
+5c08639d78,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.821,True
+5cdecc5582,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.84,True
+5d26bfe687,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.79,True
+5d436be4da,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.848,True
+5e0b358f50,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.588,True
+5e3a5e6503,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.535,True
+5e55054d63,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.361,False
+5e5e511f3f,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.535,True
+5e6358f815,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.777,True
+5e74b4dcb6,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.597,True
+5ee3965cdb,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.585,True
+5f4cab7b86,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.442,False
+5f7e72c890,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.746,True
+604cfc9b88,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.545,True
+608a14dca7,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.538,True
+60fc262ca7,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.434,False
+612802788b,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.521,True
+61777cf76d,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.254,False
+622f31e5fe,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.337,False
+6269b25fb4,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.318,False
+628ef953e1,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.387,False
+62d92e6adc,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.845,True
+62e2ec4f8c,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.456,True
+636ceae185,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.198,False
+63db87ae3f,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.299,False
+6420a9587a,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.257,False
+642bcd166d,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.491,True
+64512864cc,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.751,True
+6497c3df4d,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.702,True
+6594120074,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.762,True
+65f4e30489,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.706,True
+660c51f143,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.771,True
+6623271c53,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.414,False
+6647363493,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.865,True
+667cbaa19f,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.374,False
+6694a72e86,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.255,False
+66a7e73114,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.711,True
+66e63ba19e,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.713,True
+66f27a3dea,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.21,False
+6703a82982,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.507,True
+67585ffecb,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.701,True
+67f22adbc0,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.444,False
+684acc81e7,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.475,True
+68c3eb7cbb,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.371,False
+692a57653b,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.713,True
+69d3847f82,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.132,False
+69f78f4cea,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.54,True
+69fbb56be9,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.726,True
+6a1010056e,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.683,True
+6a17e517cb,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.355,False
+6abbc02f05,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.164,False
+6b7da18719,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.46,True
+6ba699437b,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.112,False
+6c83f7bcb6,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.386,False
+6cc43afe04,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.536,True
+6ce8eed41b,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.376,False
+6da10a0b45,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.836,True
+6e57fa7aad,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.714,True
+6e8e34e197,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.148,False
+6eeaafce3c,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.683,True
+6efb5d4f8e,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.602,True
+6f4c1e2c38,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.691,True
+6f92ad9e4a,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.556,True
+70c7c1ae89,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.449,False
+71cbaa83a0,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.649,True
+72649ca2c0,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.377,False
+7326629aad,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.282,False
+733c368957,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.708,True
+7383b58bf3,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.53,True
+73c9a7d68d,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.712,True
+7467916cde,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.71,True
+747a9d0f98,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.684,True
+751600a1d4,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.231,False
+7530cd90b1,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.681,True
+76412f858e,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.35,False
+765ce59ffb,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.483,True
+76a7e8e6b0,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.466,True
+76aecfb261,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.694,True
+773bc266a0,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.768,True
+77b80b70ac,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.134,False
+77ca6e7a22,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.367,False
+78a6960b12,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.581,True
+78af972167,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.694,True
+78eb0daff0,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.679,True
+78ffaa4dc5,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.61,True
+79a1a090de,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.482,True
+7a377686e9,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.661,True
+7a3d931a81,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.489,True
+7a95cbaeae,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.627,True
+7b19edf854,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.797,True
+7b223dd325,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.811,True
+7b5a9245c6,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.671,True
+7b5c121300,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.522,True
+7b5f937bb5,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.489,True
+7b9d99b411,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.38,False
+7bb9ae2a5a,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.447,False
+7c87c17944,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.738,True
+7cb1ba60d3,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.71,True
+7ce33389db,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.633,True
+7db3c096cc,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.332,False
+7db7c11617,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.832,True
+7e041fe54f,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.14,False
+7ea2c8dcd0,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.178,False
+7ef569bc2c,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.613,True
+7f2eceff69,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.525,True
+7f3236d46c,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.889,True
+7f88f31033,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.578,True
+7f901ae359,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.5,True
+7fb41b6d87,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.196,False
+7fb4dd39ac,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.56,True
+807c0751c0,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.516,True
+8096337a16,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.816,True
+80af8ce6e7,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.583,True
+80b538028d,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.491,True
+80eaef62b7,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.451,True
+81384bbb46,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.414,False
+81dfc8720d,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.652,True
+8271e1748d,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.573,True
+835f1e7fe4,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.428,False
+84e30856d2,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.859,True
+851eac7be8,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.751,True
+85325b1e3e,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.807,True
+87d4706eb1,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.802,True
+885b9ec770,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.273,False
+889201def5,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.603,True
+8943e904f8,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.764,True
+8970e60021,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.914,True
+899119b0a5,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.075,False
+8992237224,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.816,True
+89f8a8da65,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.359,False
+8a21741753,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.563,True
+8b59ff61ae,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.301,False
+8b76dc6321,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.483,True
+8b8dbf0989,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.56,True
+8c261b42d8,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.187,False
+8cb9d85c03,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.848,True
+8d5fca18f7,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.245,False
+8dd94cb3b2,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.806,True
+8de1168f46,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.503,True
+8de3f99f17,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.522,True
+8e846ab435,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.656,True
+8f68c04cb2,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.745,True
+8f6e1e71fe,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.846,True
+8fb76a1035,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.522,True
+8fcbcc99ae,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.831,True
+9028bcbbe3,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.828,True
+91211c382c,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.567,True
+914175c5f2,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.614,True
+915f3a71e3,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.597,True
+919be88f07,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.373,False
+91d8f89674,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.843,True
+91f6a9f88a,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.583,True
+9280ac2e8a,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.48,True
+9389a58bbc,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.58,True
+939b7f5fe0,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.785,True
+9460b8f420,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.583,True
+948e0990d7,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.399,False
+95586cc43c,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.287,False
+95bd7b60ec,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.594,True
+9635049f91,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.521,True
+966b6db8b2,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.65,True
+96d5ed278c,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.254,False
+97895b6617,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.443,False
+97b8d48bdf,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.564,True
+97c24c5386,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.353,False
+984e38c692,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.4,False
+9868fc32c2,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.782,True
+98ad1ec583,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.724,True
+99bb54b7d5,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.352,False
+99bba66e09,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.37,False
+99c653959a,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.831,True
+99dd216147,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.497,True
+9a92c9f3bf,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.46,True
+9c0b1901bb,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.234,False
+9c1ed10bbd,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.363,False
+9c26443ec5,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.455,True
+9c5cb7aa6e,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.547,True
+9c7a8fc1a7,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.619,True
+9cab27a2c1,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.862,True
+9d301beceb,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.427,False
+9d5b37605f,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.81,True
+9d9f1b4ff3,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.482,True
+9dadf1586a,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.63,True
+9daf4265d6,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.39,False
+9dafd98db3,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.74,True
+9e07c7bcf4,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.387,False
+9eccb623bf,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.39,False
+9f2e8e7a8b,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.35,False
+a0e121ac59,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.643,True
+a1364b7f8c,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.721,True
+a1674f9569,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.402,False
+a1a3c611c4,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.647,True
+a1c1d9e5e8,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.774,True
+a22b7e29c8,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.351,False
+a258e8a88c,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.349,False
+a26b168752,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.676,True
+a2bbe7d485,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.339,False
+a3356fe38d,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.785,True
+a390f46092,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.421,False
+a42660e95f,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.434,False
+a46225e931,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.385,False
+a491cad243,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.577,True
+a4da590b0a,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.074,False
+a50c926ba7,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.541,True
+a5ef555ba5,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.822,True
+a691386c6b,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.674,True
+a6a1db55e6,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.517,True
+a6ce17eb6e,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.238,False
+a708b98b42,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.758,True
+a7115bdb15,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.823,True
+a7e970dd11,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.644,True
+a8a22cf341,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.774,True
+a8f6b4b4d5,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.741,True
+a91b6cd54d,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.823,True
+a955a3b4a9,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.599,True
+a96a6657c2,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.244,False
+a97719644d,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.57,True
+a9887ee431,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.587,True
+a9c77c3f82,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.818,True
+aa0e82ce18,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.305,False
+aa8b2d8b1d,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.728,True
+ab2e6b59bc,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.764,True
+ab90b05e00,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.609,True
+ac54cca279,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.802,True
+acfc2ac90e,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.784,True
+ad2607952e,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.332,False
+ad9da29227,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.587,True
+ae3fe13eb0,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.419,False
+ae70abb247,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.785,True
+ae87cdb4c1,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.406,False
+aecd3799d2,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.142,False
+af03983e06,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.432,False
+b02b410519,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.811,True
+b035a42839,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.178,False
+b03be44ec1,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.487,True
+b0912dc4a7,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.523,True
+b13c48f934,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.748,True
+b182648348,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.826,True
+b1d11feb7d,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.506,True
+b22521a32c,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.398,False
+b23cbc8f2a,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.615,True
+b281fe2651,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.369,False
+b2be3cad54,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.713,True
+b2e092063c,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.447,False
+b2ec173a97,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.626,True
+b32cd68c33,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.289,False
+b373069c2f,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.725,True
+b37f375bc1,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.406,False
+b3e00db1e3,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.665,True
+b4c9caace0,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.508,True
+b4d2b9b749,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.877,True
+b569c824f4,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.864,True
+b5c9e9729e,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.753,True
+b5e7a9a91a,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.619,True
+b699c7aa5a,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.648,True
+b729f16415,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.662,True
+b7395f8586,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.7,True
+b74e849389,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.089,False
+b776553d3d,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.743,True
+b7c57b6043,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.121,False
+b7f57ed68b,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.698,True
+b894d7d03d,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.223,False
+b8c20c6084,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.812,True
+b8f3591718,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.512,True
+b91fdbcf33,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.537,True
+bb5d6632dc,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.89,True
+bbf0c5468e,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.535,True
+bc192149c5,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.746,True
+bcc394fc46,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.708,True
+bd4f6277c6,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.656,True
+bd6dc71c68,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.494,True
+bd7fa104f9,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.501,True
+bd9629bcf4,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.523,True
+bdd480007a,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.596,True
+bf1e48ceb4,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.598,True
+bf2211c325,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.716,True
+bfb03788d6,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.471,True
+bfbfc7a74a,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.189,False
+bfe2cc89f1,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.504,True
+c02ee727d8,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.65,True
+c06ef36b7a,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.639,True
+c18db30771,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.555,True
+c1b2bff960,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.538,True
+c23c14a809,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.831,True
+c260a29702,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.656,True
+c266c27150,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.42,False
+c3a63f7b09,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.122,False
+c409d0c102,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.29,False
+c422ef3a2f,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.748,True
+c533ceeb4b,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.755,True
+c5d7669d7a,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.806,True
+c60bda5018,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.294,False
+c64abc3939,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.843,True
+c711d39d3b,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.436,False
+c72afc5a13,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.731,True
+c88c3d75b8,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.294,False
+c8b514443c,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.432,False
+c9ba68efef,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.741,True
+ca0ff45bc6,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.85,True
+ca134b02dd,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.836,True
+cac9ab2dcc,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.591,True
+caf93fa1ed,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.551,True
+cbfa1121a1,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.482,True
+cc5b1e8f99,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.57,True
+cc8d0c0dd8,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.697,True
+cc975dcf67,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.806,True
+ccbd2501cc,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.576,True
+ccc0a71a39,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.12,False
+cd1368eaad,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.545,True
+ce4b7f252a,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.629,True
+cea3d596dd,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.477,True
+cf4ea9621e,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.628,True
+cf61d77e28,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.279,False
+cf87ce055f,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.26,False
+cf9b585641,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.57,True
+d009cc9de3,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.351,False
+d09ac9ac91,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.383,False
+d0a9c52267,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.385,False
+d127c346f6,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.648,True
+d17aadc242,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.373,False
+d19bb67d99,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.445,False
+d1b8fe0a1e,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.681,True
+d1d2bad2b8,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.599,True
+d1ffe2e266,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.716,True
+d280c9aded,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.344,False
+d36c89db34,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.485,True
+d371dd6289,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.221,False
+d4116b1c46,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.468,True
+d41bddd639,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.792,True
+d41e90a63d,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.649,True
+d4288d3444,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.359,False
+d452142ca5,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.834,True
+d484c07e7a,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.664,True
+d4abbe9c99,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.761,True
+d4c1a6e16a,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.324,False
+d5074d2694,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.553,True
+d50936efb8,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.483,True
+d532cdb68a,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.415,False
+d56508af03,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.433,False
+d69d69d756,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.434,False
+d7564f17fa,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.408,False
+d7c6f4c3b5,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.552,True
+d7ebfd361c,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.562,True
+d80d097746,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.859,True
+d851ab1b09,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.832,True
+d85cb95e4b,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.82,True
+d884465119,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.632,True
+d8ad1b5ed2,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.262,False
+d8d12b434b,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.293,False
+d8d55c7cfa,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.346,False
+d8e1303240,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.801,True
+d904f8de83,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.534,True
+d935fd551a,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.834,True
+d98a904340,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.818,True
+d9bed33a03,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.6,True
+d9fd4c7988,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.759,True
+da7ae7fa75,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.262,False
+da8109b8f5,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.819,True
+daa4588a46,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.855,True
+db2c1f9368,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.691,True
+db47f8352b,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.7,True
+db592b97b7,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.271,False
+dbac5bf41e,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.44,False
+dbd5b9ded8,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.297,False
+dc2b6017bb,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.598,True
+dcd042fdff,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.599,True
+dd3ab48520,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.546,True
+dd5dab720a,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.6,True
+dd84f5f829,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.531,True
+de7b80dffe,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.248,False
+dec6c9a502,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.752,True
+e048c96c26,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.701,True
+e09c33427d,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.682,True
+e10cb78f95,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.334,False
+e150ef8e04,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.587,True
+e1be02eb60,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.558,True
+e1eb837a80,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.689,True
+e1ee6f0ae7,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.445,False
+e2cf5fb439,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.416,False
+e2e76ab442,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.461,True
+e33eb41fe9,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.88,True
+e3446d1c7a,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.706,True
+e36a676d4d,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.67,True
+e37aa2408f,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.567,True
+e3a0d37724,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.203,False
+e3b6c46350,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.74,True
+e4773c8325,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.14,False
+e4960fa054,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.511,True
+e507a65fca,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.743,True
+e56829011b,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.282,False
+e57e6bf0b0,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.699,True
+e5808027f0,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.602,True
+e604aad989,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.571,True
+e6df17eeae,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.153,False
+e77a61253b,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.695,True
+e7c42dbd1a,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.353,False
+e83ddf4a37,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.483,True
+e83eb7be0a,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.709,True
+e83f148e57,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.605,True
+e84fc31727,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.643,True
+e8619c9b21,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.18,False
+e8c6eccc12,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.793,True
+e9398ee11f,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.545,True
+e96bad7f94,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.287,False
+e9a99966fd,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.627,True
+e9c96a052f,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.381,False
+eaf768f8d0,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.55,True
+eb02e2d152,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.756,True
+ec14c7e26d,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.446,False
+ec4e8911f7,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.693,True
+ecb0260062,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.513,True
+ed87c65d43,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.637,True
+ede0c4db09,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.538,True
+edf385b460,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.218,False
+ee642a09e5,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.625,True
+eea2dd69a8,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.379,False
+eedf5b284b,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.349,False
+ef1472f7e9,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.574,True
+ef68975574,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.511,True
+f012a25d10,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.434,False
+f096affc7c,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.366,False
+f0ea19bc73,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.295,False
+f1c1622f4b,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.488,True
+f1e9017246,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.62,True
+f2098629a3,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.762,True
+f221d2dcd8,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.639,True
+f2948f1c59,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.476,True
+f2fee0ee7f,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.891,True
+f33f92eec0,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.168,False
+f352fa1cdd,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.522,True
+f390626e2c,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.737,True
+f40ad95697,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.455,True
+f4bd60dfe4,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.668,True
+f5984b0b5a,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.651,True
+f64cc249b7,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.825,True
+f6dfa8ea3b,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.223,False
+f6fc25e5a3,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.707,True
+f75ad448d4,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.888,True
+f798a51934,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.344,False
+f7a90004e5,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.683,True
+f7dbaf2f47,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.292,False
+f833dc3142,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.327,False
+f83bbdd205,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.19,False
+f8e9c75e2f,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.331,False
+f8f4911a32,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.817,True
+f8fa559e29,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.75,True
+f91da94c5c,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.791,True
+fa4fa5ce5b,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.667,True
+fa65a469e6,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.434,False
+fa69df1226,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.139,False
+fa723ea9b5,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.195,False
+fa86a34987,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.277,False
+fac7b67248,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.548,True
+fbba1e625e,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.305,False
+fc3c3345ee,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.826,True
+fc5638973f,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.151,False
+fc9367b8c8,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.783,True
+fcd8cc6c9d,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.801,True
+fcdc7ad0ad,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.322,False
+fd5b8f8565,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.2,False
+fd6e84ca13,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.607,True
+fdbc6e1109,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.687,True
+fdc6224ff1,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.456,True
+fde6df95ca,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.269,False
+fe20eb3aed,Ocasionais de baixo ticket,Frete grátis acima de R$ 299 e desconto no Pix para aumentar o ticket,0.566,True
+ff70e663fc,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.392,False
+ff74695c3e,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.782,True
+ffcf15f065,Fiéis de alto valor,Convite ao programa de fidelidade e acesso antecipado a lançamentos (sem cupom de desconto),0.188,False
+fff966c64d,Alto ticket em games e notebooks,Oferta de acessórios complementares e garantia estendida após a compra,0.5,True
